@@ -1,5 +1,5 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 html,
@@ -7,6 +7,13 @@ body {
   height: 100%;
   margin: 0;
 }
+
+body {
+  font-family: 'Dosis', sans-serif; 
+  color: #000000;
+}
+
+
 ul > li {
   list-style: none;
 }
@@ -20,7 +27,105 @@ a {
   text-transform: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 .wrapper {
   min-height: 100%;
-  background: #F2CEDA;
+  background: #f2ceda;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.hero {
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo__img {
+  width: 79px;
+  height: 79px;
+  object-fit: contain;
+}
+
+.nav {
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  margin-right: 28px;
+}
+
+.nav__item:last-child {
+  margin: 0;
+}
+
+.nav__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.btn {
+  padding: 15px 36px;
+  background: #D23166;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+content {
+  max-width: 49%;
+  padding-top: 186px;
+}
+
+.content__desc {
+}
+
+.content__headline {
+}
+
+.title {
+}
+
+.content__tittle {
+}
+
+.tittle__element {
+}
+
+.content__text {
+}
+
+.btn {
+}
+
+.content__decor {
+}
+
+.content__img {
 }
