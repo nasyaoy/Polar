@@ -9,10 +9,9 @@ body {
 }
 
 body {
-  font-family: 'Dosis', sans-serif; 
+  font-family: "Dosis", sans-serif;
   color: #000000;
 }
-
 
 ul > li {
   list-style: none;
@@ -27,13 +26,13 @@ a {
   text-transform: none;
 }
 
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
 
 .wrapper {
   min-height: 100%;
-  background: #f2ceda;
+  background: #f8edf0;
 }
 
 h1,
@@ -58,11 +57,17 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 25px 0px;
+}
+
+.logo {
+  width: 79px;
+  height: 79px;
 }
 
 .logo__img {
-  width: 79px;
-  height: 79px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
@@ -75,6 +80,10 @@ h6 {
 
 .nav__item {
   margin-right: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
 }
 
 .nav__item:last-child {
@@ -82,14 +91,15 @@ h6 {
 }
 
 .nav__link {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  font-weight: 400px;
+  color: rgba(21, 1, 1, 0.6);
 }
 
 .btn {
   padding: 15px 36px;
-  background: #D23166;
+  background: #d23166;
   border-radius: 5px;
   border: none;
   font-weight: 500;
@@ -98,34 +108,60 @@ h6 {
   color: #ffffff;
 }
 
-content {
-  max-width: 49%;
+.content {
+  max-width: 100%;
   padding-top: 186px;
+  display: flex;
 }
 
 .content__desc {
+  width: 50%;
 }
 
 .content__headline {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  margin-bottom: 15px;
 }
 
 .title {
+  font-family: "Fredoka One", sans-serif;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 120.5%;
 }
 
 .content__tittle {
 }
 
 .tittle__element {
+  color: #d23166;
 }
 
 .content__text {
-}
-
-.btn {
+  font-family: "Hind Madurai", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  opacity: 0.6;
+  padding: 30px 0px 30px;
 }
 
 .content__decor {
+  max-height: 600px;
 }
 
 .content__img {
+  width: 100%;
+}
+
+.content__decor::after {
+  content: "";
+  display: block;
+  width: 365px;
+  height: 353px;
+  color: rgba(210, 49, 102, 0.1);
 }
