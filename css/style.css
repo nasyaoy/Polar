@@ -112,6 +112,7 @@ h6 {
   max-width: 100%;
   padding-top: 186px;
   display: flex;
+  align-items: center;
 }
 
 .content__desc {
@@ -151,7 +152,11 @@ h6 {
 }
 
 .content__decor {
-  max-height: 600px;
+  height: 600px;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: flex-end;
 }
 
 .content__img {
@@ -163,5 +168,43 @@ h6 {
   display: block;
   width: 365px;
   height: 353px;
-  color: rgba(210, 49, 102, 0.1);
+  background: rgba(210, 49, 102, 0.1);
+  border-radius: 50%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: -5;
+}
+
+.content__decor::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 120%;
+  height: 75%;
+  background-image: url(../img/content/milk.png);
+  background-position: bottom -56px left -62px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.services {
+}
+.container {
+}
+.services__list {
+}
+.services__item {
+}
+.provider {
+}
+.provider__img {
+}
+.provider__desc {
+}
+.provider__tittle {
+}
+.provider__text {
 }
