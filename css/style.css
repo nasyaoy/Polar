@@ -13,7 +13,7 @@ body {
   color: #000000;
 }
 
-ul > li {
+ul>li {
   list-style: none;
 }
 
@@ -71,8 +71,7 @@ h6 {
   object-fit: contain;
 }
 
-.nav {
-}
+.nav {}
 
 .nav__list {
   display: flex;
@@ -134,8 +133,7 @@ h6 {
   line-height: 120.5%;
 }
 
-.content__tittle {
-}
+.content__tittle {}
 
 .tittle__element {
   color: #d23166;
@@ -190,70 +188,170 @@ h6 {
   background-repeat: no-repeat;
 }
 
-.feedback {
+.delivery {
+  padding: 115px 0 102px;
 }
+
+.delivery__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delivery__item {
+  width: 250px;
+  height: 180px;
+  align-items: center;
+}
+
+.provider {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+}
+
+.provider__img {
+  object-fit: cover;
+}
+
+.provider__desc {
+  font-family: "Hind Madurai", sans-serif;
+  padding-top: 28px 35px 35px;
+  text-align: center;
+}
+
+.provider__tittle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 13px;
+
+}
+
+.provider__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.789);
+}
+
+.see-details {
+  padding: 73px 0px;
+  background: rgba(248, 237, 240, 1);
+}
+
+.see-details__container {
+ display: flex; 
+ align-items: center;
+}
+
+.see-details__desc {
+  width: 50%;
+  justify-content: center;
+}
+
+.action {}
+
+.see-details__action {
+  min-width: 371px;
+}
+
+.action__tittle {
+  font-family: 'Hind Madurai', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 49px;
+  padding: 141.39px 0 16.04px;
+}
+
+.action__text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(21, 1, 1, 0.7);
+  padding: 0 0 35.1px;
+}
+
+.see-details__img-wrap {
+  width: 655px;
+height: 656.8px;
+}
+
+.see-details__img {
+position: absolute;
+  object-fit: contain;
+}
+
+.feedback {}
 
 .feedback__content {
   display: flex;
 }
+
 .feedback__column {
   font: 1px;
 }
-.review {
 
-}
+.review {}
+
 .review__head {
   display: flex;
   align-items: center;
 }
+
 .avatar {
-width: 59px;
-height: 59px;
-border-radius: 50%;
-overflow: hidden;
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  overflow: hidden;
 }
+
 .avatar__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: top center;
 }
-.review__title-block {
-}
-.review__title {
 
-}
-.review__subtitle {
-}
+.review__title-block {}
+
+.review__title {}
+
+.review__subtitle {}
+
 .review__text {
   width: 322px;
   position: relative;
 }
 
-.review__text::before{
+.review__text::before {
   content: url(img/content/Group.svg);
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.review-slider {
-}
-.review-slider__ctrls {
-}
-.review-slider__ctrl {
-}
-.review-slider__ctrl_rotate_left {
-}
-.review-slider__ctrl-img {
-}
-.review-slider__list {
-}
-.review-slider__item {
-}
-.review-slider__link {
-}
-.avatar_size-small {
-}
-.feedback__column-img {
-}
+.review-slider {}
+
+.review-slider__ctrls {}
+
+.review-slider__ctrl {}
+
+.review-slider__ctrl_rotate_left {}
+
+.review-slider__ctrl-img {}
+
+.review-slider__list {}
+
+.review-slider__item {}
+
+.review-slider__link {}
+
+.avatar_size-small {}
+
+.feedback__column-img {}
